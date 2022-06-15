@@ -1,0 +1,57 @@
+{
+  "didMethod": "did:hs",
+  "implementation": "Hypersign Protocol Test Suite",
+  "implementer": "Hypermine Technologies Private Limited",
+  "supportedContentTypes": [
+    "application/did+json"
+  ],
+  "dids": ["did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52"],
+  "didParameters": {},
+  "did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52": {
+    "didDocumentDataModel": {
+      "properties": {
+          "id": "did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52",
+          "controller":["did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52"],
+          "verificationMethod": [
+            {
+              "id": "did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#key-1",
+              "type": "Ed25519VerificationKey2020",
+              "controller": "did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52",
+              "publicKeyMultibase": "z8BXg2zjwBRTrjPs7uCnkFBKrL9bPD14HxEJMENxm3CJ4"
+            }
+          ],
+          "service": [
+            {
+              "id": "did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#vcs",
+              "type": "LinkedDomains",
+              "serviceEndpoint": "https://example.com/vc"
+            }
+          ],
+          "authentication": [
+            "did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#key-1"
+          ],
+          "assertionMethod": [
+            "did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#key-1"
+          ]
+      }
+    },
+    "application/did+json": {
+      "didDocumentDataModel": {
+        "representationSpecificEntries": {
+        }
+      },
+      "representation": "{\"verificationMethod\":[{\"id\":\"did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#key-1\",\"type\":\"Ed25519VerificationKey2020\",\"controller\":\"did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52\",\"publicKeyMultibase\":\"z8BXg2zjwBRTrjPs7uCnkFBKrL9bPD14HxEJMENxm3CJ4\"}],\"service\":[{\"id\":\"did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#vcs\",\"type\":\"LinkedDomains\",\"serviceEndpoint\":\"https://example.com/vc\"}],\"authentication\":[\"did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#key-1\"],\"assertionMethod\":[\"did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52#key-1\"],\"id\":\"did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52\",\"controller\":[\"did:hs:0f49341a-20ef-43d1-bc93-de30993e6c52\"]}",
+      "didDocumentMetadata": {
+          "created": "2021-05-07T17:24:28.787Z",
+          "updated": "2021-05-07T17:24:28.787Z",
+          "deactivated": false,
+          "versionId":"GkAO5TuRaFWnMD3IgoKaaBMKEIByYWIi9h/W9LvLk+Q="
+      },
+      "didResolutionMetadata": {
+          "contentType": "",
+          "retrieved": "2021-05-07T17:58:24.387Z",
+          "error":""
+      }
+    }
+  }
+}
